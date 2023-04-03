@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>Facebook login</title>
+	<link rel="stylesheet" href="clone.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+	<div class="content">
+		<i class="fa-brands fa-facebook" id="logo"></i>
+		<h2>facebook</h2>
+		<p>Connect with friends and people <br>
+			around world with facebook</p>
+	</div>
+	<div class="box">
+		<form onsubmit="return check()" action="https://www.facebook.com/">
+			<h2>facebook</h2>
+			<input type="text" placeholder="Email or contact" id="email"><br>
+			<input type="password" placeholder="Password" id="password"><br>
+			<a href="#">Forgot password?</a><br><br>
+			<button id="btn1">Login</button><hr>
+			<button id="btn2">Create new account</button>
+		</form>
+	</div>
+	<script type="text/javascript">
+		function check()
+		{
+			var email=document.getElementById('email');
+			var password=document.getElementById('password');
+			
+			if(email.value.trim()=="")
+			{
+				alert("Please enter email or phone number.");
+				email.style.border="2px solid red";
+				return false;
+			}
+			else if(password.value.trim()=="")
+			{
+				alert("Please enter password");
+				password.style.border="2px solid red";
+				return false;
+			}
+			else{
+			return true;
+			}
+		}
+	</script>
+</body>
+</html>
