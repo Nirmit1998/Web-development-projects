@@ -1,0 +1,33 @@
+body{
+    background-image:url("covers.jpg");
+    background-size:50% 100%;
+    background-repeat:no-repeat;
+    background-color:#f0f0f0;
+}
+.content{
+    position:absolute;
+    top:15%;
+    left:60%;
+    font-family:century gothic;
+}
+.content span{
+    color:orangered;
+}
+.content h2{
+    margin-left:100px;
+}
+.logos{
+    margin-left:160px;
+    font-size:20px;
+}
+.btn{
+    margin-left:150px;
+    margin-top:20px;
+    background-color:orangered;
+    padding:10px 30px;
+    width:140px;
+    border-radius:30px;
+    color:white;
+    border:none;
+    font-family:century gothic;
+}
