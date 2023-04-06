@@ -6,3 +6,6 @@
 # Web page design
 
 ![Screenshot (37)](https://user-images.githubusercontent.com/110041273/229821264-3e083c0b-9986-4e89-8828-1185c323ec10.png)
+
+# Webpage output
+![Screenshot (40)](https://user-images.githubusercontent.com/110041273/230318780-4c415c94-25da-4d66-8462-61bf0e7b115d.png)
